@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style type="text/css">
+      .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img {
+          /*width: 70%;*/
+          margin: auto;
+      }
+      .carousel-control.left, .carousel-control.right {
+      background: none !important;
+      filter: progid: none !important;
+      outline: 0;
+     }
+    .carousel .carousel-control {
+      visibility: hidden;
+    }
+    .carousel:hover .carousel-control {
+      visibility: visible;
+      color: black;
+    }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Arjun Srinivasan</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Arjun Srinivasan</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio" title="My work">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about" title="About me">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact" title="Achievements, Talks, Conferences">Achievements</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="files/Arjun_Srinivasan-Resume.pdf" target="_blank">Resume</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/me.png" alt="">
+                    <div class="intro-text">
+                        <span class="name" style="color:black">Hello World</span>
+                        <hr class="star-light">
+                        <span class="skills"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">            
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Projects</h3>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#dotlinkModal" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-1.5x"></i>
+                                <p style="font-size:15px">dotlink360 - A Visual Analytics system for interfirm competitive intelligence.</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dotlink.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#pungaModal" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-1.5x"></i>
+                                <p style="font-size:15px">A Visual Analytics system for analyzing and exploring text documents.</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/punga.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#babsModal" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-1.5x"></i>
+                                <p style="font-size:15px">A Visual Analytics system for analyzing and predicting the San Francisco Bay Area bike sharing network.</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/babs.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#healthinfoModal" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-1.5x"></i>
+                                <p style="font-size:15px">FHIR DART - A system to visually create and analyze patient cohorts, compare medical providers and visualize careflow processes.</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/healthinfo.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#genediveModal" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-1.5x"></i>
+                                <p style="font-size:15px">Genedive - A Visualization system for comparing genomes (developed in collaboration with the Georgia Aquarium).</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/genedive.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#othersModal" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-1.5x"></i>
+                                <p>Other projects.</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/others.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center" st>
+                    <h3>Publications / Books Reviewed</h3>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2 portfolio-item">
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#publicationsModal" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content" style="top:50%">
+                                <i class="fa fa-search-plus fa-1.5x"></i>
+                                <p>count: 1</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/publications.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#booksModal" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content" style="top:50%">
+                                <i class="fa fa-search-plus fa-1.5x"></i>
+                                <p>count: 2*</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/books.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-2 portfolio-item">
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About Me</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">                
+                <div class="col-lg-12">
+                    <img src="img/portfolio/Eat_Sleep_Code_Game.png" class="img-responsive img-centered" alt="">                    
+                </div>                       
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <br>
+                    <p>I am currently pursuing my <strong>MS in Computer Science</strong> (specializing in <strong>Visual Analytics</strong>) at the <strong>Georgia Institute of Technology</strong>, Atlanta-Georiga(USA).
+                </div>         
+            </div><br><br>
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    <h4>Education</h4>
+                    <hr class="star-light">
+                    <p><span style="text-align:left;"><strong>M.S. Computer Science<br></strong>
+Georgia Institute of Technology, Atlanta-USA<br>
+Current GPA: 3.71/4.00<br>
+Graduation : December 2015(expected)</span><br><br>
+
+<span style="text-align:left;"><strong>B.E. Information Science<br></strong>
+RV College of Engineering, Bangalore-India<br>
+GPA : 8.68/10.00<br>
+Graduation : July, 2013</span><br><br></p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <h4>Interests</h4>
+                    <hr class="star-light">
+                    <p>Interactive Machine Learning</p>
+                    <p>Information Visualization</p>
+                    <p>Business Intelligence</p>
+                    <p>Databases</p>
+                    <p>Game Development</p>
+                </div>
+            </div><br>
+            <div class="row text-center">
+                <p>You can view my complete resume <a href="files/Arjun_Srinivasan-Resume.pdf" target="_blank" style="color:#000047;text-decoration:underline">here</a>.</p>
+            </div>
+        </div>
+        </span>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Achievements</h3>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">                   
+                    <hr><p style="font-size:17px">National Finalist of Walmart’s Collegiate Innovators Challenge 2014 (USA).</p><hr>
+                    <p style="font-size:17px">Winner (1st Place) of first ever SAP Osmosis 2013 held at SAP Labs, Bangalore India for my health-based personal shopping assistant- “Shop Buddy”.</p><hr>
+                    <p style="font-size:17px">Winner (1st Runner-up) of SAP BizTech 2012 India for my cross platform application helping farmers do better business. Presented the submission at the Demo Jam in SAP Techniversity 2012, Bangalore.</p><hr>
+                    <p style="font-size:17px">One of the top 6 national finalists of the SAP Dashboard Design Challenge, India – 2011. Also showcased the dashboard at SAP TechED India 2011.</p><hr>
+                    <p style="font-size:17px">Winner of the Microsoft Windows 8 hack-a-thon 2012 held in Pune, India.</p><hr>
+                    <p style="font-size:17px">Microsoft Student Partner (MSP) for Rashtreeya Vidyalaya College of Engineering from 2011-13.</p><hr>
+                    <p style="font-size:17px">First ever SAP Student Ambassador selected globally.</p><hr>
+                    <p style="font-size:17px">Joint Secretary of the Rotaract Club of RVCE for the year “2011-2012”</p><hr>
+                </div>         
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h4>Talks</h4>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">                   
+                    <hr><p style="font-size:17px">"Data Visualization and Dashboard Designing" at the Big Data and Business Intelligence Workshop held from 16-20th Dec, 2013 at RV College of Engineering, Bangalore.</p><hr>
+                    <p style="font-size:17px">"SAP Lumira for students" at SAP Lumira VIZ JAM on 9th December, 2013 at SAP Labs India, Bangalore. - "The New SAP University Alliances" - with Ann Rosenberg, Head of SAP University Alliances at SAP Techniversity 2013.</p><hr>
+                    <p style="font-size:17px">Guest speaker at RVCE Frequency club's session on "Development using Windows phone" in Nov-2012. - Training and presentation session on Microsoft SQL Server at Dept of Information Science & Engineering, RVCE in April 2012.</p><hr>
+                    <p style="font-size:17px">Presentation session on Windows Azure at Dept of Information Science & Engineering, RVCE in April 2012.</p><hr>
+                    <p style="font-size:17px">Training and presentation session on Windows Phone at Dept of Information Science & Engineering, RVCE in March 2012.</p><hr>
+                    <p style="font-size:17px">Session on Microsoft's academic offerings for students at RVCE for students of Depts. of Computer and Information Science in February 2012.</p><hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h4>Conferences attended</h4>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">                   
+                    <hr><p style="font-size:17px">SAP SAPPHIRE NOW 2013 in Orlando, Florida(USA).</p><hr>
+                    <p style="font-size:17px">SAP TechED 2013 India in Bangalore.</p><hr>
+                    <p style="font-size:17px">SAP Techniversity 2013 in Bangalore, India.</p><hr>
+                    <p style="font-size:17px">Microsoft TechED 2013 India in Bangalore.</p><hr>
+                    <p style="font-size:17px">International Conference on Innovations in Electrical, Electronics and Computer Science Engineering [IEECSE-2013] in Bangalore, India.</p><hr>
+                    <p style="font-size:17px">SAP TechED 2012 India in Bangalore.</p><hr>
+                    <p style="font-size:17px">SAP Techniversity 2012 in Bangalore, India.</p><hr>
+                    <p style="font-size:17px">Microsoft TechED 2012 India in Bangalore.</p><hr>
+                    <p style="font-size:17px">Google g|day India 2012 in Bangalore.</p><hr>
+                    <p style="font-size:17px">Conference on "Big Data Management and Business Intelligence" in December 2012 at RV College of Engineering, Bangalore.</p><hr>
+                    <p style="font-size:17px">SAP TechED 2011 India in Bangalore.</p><hr>                   
+                </div>
+            </div>                     
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-2">                        
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>251, 10th St. NW<br>Atlanta, GA 30318</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.linkedin.com/pub/arjun-srinivasan/46/747/989" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/10_arjun" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/arjun.srinivasan.336" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/100145113814017844857" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-2">                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <span style="font-family:junctionregularRegular, Frutiger Linotype, Univers, Calibri, Gill Sans, Gill Sans MT, Myriad Pro, Myriad, DejaVu Sans Condensed, Liberation Sans, 'Nimbus Sans L, Tahoma, Geneva, Helvetica Neue, Helvetica, Arial, MS PGothic, Osaka, Sans-Serif">Developed by: &nbsp;Arjun Srinivasan <br>2015<br>Code available at:</span> 
+                    </div>
+                </div>
+                <!--<div class="row">
+                    <div class="col-lg-12">
+                        <p style="font-size:7px;">I used <a href="http://getbootstrap.com/">Bootstrap</a> and the Freelancer template available at <a href="http://startbootstrap.com/">startbootstrap</a> to make this website.</p>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="dotlinkModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>dotlink360 - A Visual Analytics system for interfirm competitive intelligence</h3>
+                            <hr class="star-primary">
+                            <!--<img src="img/portfolio/punga.png" class="img-responsive img-centered" alt="">-->
+                            <div id="dotlinkCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                  <li data-target="#dotlinkCarousel" style="fill:black" data-slide-to="0" class="active"></li>
+                                  <li data-target="#dotlinkCarousel" data-slide-to="1"></li>
+                                  <li data-target="#dotlinkCarousel" data-slide-to="2"></li>
+                                  <li data-target="#dotlinkCarousel" data-slide-to="3"></li>
+                                  <li data-target="#dotlinkCarousel" data-slide-to="4"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                  <div class="item active">
+                                    <img src="img/portfolio/dotlink.png" alt="" width="" height="">
+                                  </div>
+
+                                  <div class="item">
+                                    <img src="img/portfolio/dotlink1.png" alt="" width="" height="">
+                                  </div>
+
+                                  <div class="item">
+                                    <img src="img/portfolio/dotlink2.png" alt="" width="" height="">
+                                  </div>
+
+                                  <div class="item">
+                                    <img src="img/portfolio/dotlink3.png" alt="" width="" height="">
+                                  </div>
+
+                                  <div class="item">
+                                    <img src="img/portfolio/dotlink4.png" alt="" width="" height="">
+                                  </div>
+
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#dotlinkCarousel" role="button" data-slide="prev">
+                                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#dotlinkCarousel" role="button" data-slide="next">
+                                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <p>A web based visual analytics tool which allows exploring interfirm relationships in complex business ecosystems. The system presents the user with three primary perspectives to explore the industry: Ecosystem, Market Segment and Company. Within each path, the user can choose between different visualizations to gain insights on different perspective of the data. This work is part of my research at Georiga Tech - if you wish to gain access to a demo of the system, please contact me via email.</p>
+                            <ul class="list-inline item-details">
+                                <li>Developed For:
+                                    <p class="highlight">Computational Enterprise Science Lab - Georgia Tech</p>
+                                </li>
+                                <li>Date:
+                                    <p class="highlight">Fall 2014-Present</p>
+                                </li>
+                                <li>Keywords:
+                                    <p class="highlight">d3.js, Python</p>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="pungaModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>PUNGA - A provenance supporting Visual Analytics system for analyzing and exploring text documents</h3>
+                            <hr class="star-primary">
+                            <!--<img src="img/portfolio/babs.png" class="img-responsive img-centered" alt="">-->                            
+                            <div id="pungaCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                  <li data-target="#pungaCarousel" style="fill:black" data-slide-to="0" class="active"></li>
+                                  <li data-target="#pungaCarousel" data-slide-to="1"></li>
+                                  <li data-target="#pungaCarousel" data-slide-to="2"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                  <div class="item active">
+                                    <img src="img/portfolio/punga.png" alt="" width="" height="">
+                                  </div>
+
+                                  <div class="item">
+                                    <img src="img/portfolio/punga1.png" alt="" width="" height="">
+                                  </div>
+
+                                  <div class="item">
+                                    <img src="img/portfolio/punga2.png" alt="" width="" height="">
+                                  </div>
+
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#pungaCarousel" role="button" data-slide="prev">
+                                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#pungaCarousel" role="button" data-slide="next">
+                                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <p>This sytem provides users with 2 primary views - the Entity View and the Analytics View. These views let the user clean, modify, analyze and explore connections between entities in a given collection of text documents. The system also provides an ACH table plugin, an exclusive view for analytic provenance and logging capabilities.<br>A video demo of the system can be found <a href="https://www.youtube.com/watch?v=PeSO7XtuXE8&feature=youtu.be" target="_blank">here.</a> You can try the sytem out at: <a href="http://punga.herokuapp.com/" target="_blank">http://punga.herokuapp.com/</a> (currently has the VAST 2006 data set loaded)</p>
+                            <ul class="list-inline item-details">
+                                <li>Developed For:
+                                    <p class="highlight">CS 8803: Visual Data Analysis</p>
+                                </li>
+                                <li>Date:
+                                    <p class="highlight">Spring 2015</p>
+                                </li>
+                                <li>Keywords:
+                                    <p class="highlight">d3.js, Python, Stanford NER</p>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="babsModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>"An Info Ride Across the Bay" - A Visual Analytics system for analyzing and predicting the San Francisco Bay Area bike sharing network</h3>
+                            <hr class="star-primary">
+                            <!--<img src="img/portfolio/healthinfo.png" class="img-responsive img-left" alt="">-->                              
+                            <div id="babsCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                  <li data-target="#babsCarousel" style="fill:black" data-slide-to="0" class="active"></li>
+                                  <li data-target="#babsCarousel" data-slide-to="1"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                  <div class="item active">
+                                    <img src="img/portfolio/babs.png" alt="" width="" height="">
+                                  </div>
+
+                                  <div class="item">
+                                    <img src="img/portfolio/babs1.png" alt="" width="" height="">
+                                  </div>
+
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#babsCarousel" role="button" data-slide="prev">
+                                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#babsCarousel" role="button" data-slide="next">
+                                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <p>This system presents 2 views - Explore and Predict. The explore view lets users analyze the Bay Area Bike Sharing network with the help of an interactive network visualization, an overview bar chart for all stations, individual station level statistics and much more. The visualizations support burshing-and-linking and filtering based on various parameters including date ranges, weather conditions, city level thresholds for selectively seeing stations in each city. The Predict view uses decision trees to predict hourly usage of bikes for different cities in the San Francisco Bay area given any climatic conditions.<br>You can try the system out at <a href="http://dva-bike-share.herokuapp.com/" target="_blank">http://dva-bike-share.herokuapp.com/</a> (to begin, please select a date range and click apply filters - the initial population of views might take upto 20 seconds)</p>
+                            <ul class="list-inline item-details">
+                                <li>Developed For:
+                                    <p class="highlight">CSE 6242 - Data and Visual Analytics</p>
+                                </li>
+                                <li>Date:
+                                    <p class="highlight">Spring 2015</p>
+                                </li>
+                                <li>Keywords:
+                                    <p class="highlight">d3.js, Python, Flask</p>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="healthinfoModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>FHIR DART - A system to visually create and analyze patient cohorts, compare medical providers and visualize careflow processes</h3
+                            <hr class="star-primary">
+                            <!--<img src="img/portfolio/genedive.png" class="img-responsive img-centered" alt="">-->
+                            <div id="healthinfoCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                  <li data-target="#healthinfoCarousel" style="fill:black" data-slide-to="0" class="active"></li>
+                                  <li data-target="#healthinfoCarousel" data-slide-to="1"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                  <div class="item active">
+                                    <img src="img/portfolio/healthinfo.png" alt="" width="" height="">
+                                  </div>
+
+                                  <div class="item">
+                                    <img src="img/portfolio/healthinfo1.png" alt="" width="" height="">
+                                  </div>
+
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#healthinfoCarousel" role="button" data-slide="prev">
+                                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#healthinfoCarousel" role="button" data-slide="next">
+                                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <p>A population health analysis system that allows creation of patient cohorts using filters and then facilitates further filtering using dynamic querying. Visualizations are provided highlighting common drugs presribed, lab tests ordered, consults ordered and careflow paths followed. The system also allows the user to select multiple providers and compare them based on aggregated values across all their encounters. The system was highly appreciated by Geisinger Health System and the course faculty. The data for the project was provided by the Georgia Tech and was compliant the <a href="http://www.hl7.org/fhir/" target="_blank">FHIR standards</a>.</p>
+                            <ul class="list-inline item-details">
+                                <li>Developed For:
+                                    <p class="highlight">CS 6440 - Intro to Health Informatics</p>
+                                </li>
+                                <li>Date:
+                                    <p class="highlight">Spring 2015</p>
+                                </li>
+                                <li>Keywords:
+                                    <p class="highlight">d3.js, Java, Python</p>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="genediveModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Genedive - A Visualization system for comparing genomes</h3>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/genedive.png" class="img-responsive img-centered" alt="">
+                            <p>A tool which allows comparison of mitochondrial genome data for various species of fishes, reptiles and mammals. Visualization included a phylogenetic tree, radial bar chart with links, comparison color maps and sequential exploration of genes with pan and zoom features. The tool also has an in-built wiki which allows reading about the visualizations and the species being explored. Working prototype can be found <a href="http://genedive.herokuapp.com/" target="_blank">here</a>.<br>This project is being developed in association with the Georgia Aquarium under the advise of Dr. Alistair Dove.</p>
+                            <ul class="list-inline item-details">
+                                <li>Developed For:
+                                    <p class="highlight">CS 7450 - Information Visualization, Georgia Aquarium</p>
+                                </li>
+                                <li>Date:
+                                    <p class="highlight">Fall 2014-Present</p>
+                                </li>
+                                <li>Keywords:
+                                    <p class="highlight">d3.js, Python</p>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="portfolio-modal modal fade" id="othersModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Wikipedia Topic Modeling</h3>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/wikimodel.png" width="50%" height="50%" class="img-responsive img-centered" alt="">
+                            <p>Used Wikipedia dumps and performed topic modelling using LDA. The input file had over 4 million records. Used the python gensim package to perform the modelling. Generated a word cloud highlighting the 50 most popular and the 50 least popular topics in the Wikipedia dumps. The code can be found <a href="https://github.com/arjun010/wikiModel/blob/master/wiki_model_viz.py" target="_blank">here</a>.</p>
+                            <ul class="list-inline item-details">
+                                <li>Developed For:
+                                    <p class="highlight">Self</p>
+                                </li>
+                                <li>Date:
+                                    <p class="highlight">June 2014</p>
+                                </li>
+                                <li>Keywords:
+                                    <p class="highlight">Topic Modeling, Python</p>
+                                </li>
+                            </ul>
+                            <!--<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>d3.js plugins</h3>
+                            <hr class="star-primary">
+                            <div id="d3pluginsCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                  <li data-target="#d3pluginsCarousel" style="fill:black" data-slide-to="0" class="active"></li>
+                                  <li data-target="#d3pluginsCarousel" data-slide-to="1"></li>                                  
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                  <div class="item active">
+                                    <img width="50%" height="50%" src="img/portfolio/twa.png" alt="" width="" height="">
+                                  </div>
+
+                                  <div class="item">
+                                    <img width="50%" height="50%" src="img/portfolio/nanobi.png" alt="" width="" height="">
+                                  </div>
+                                  
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#d3pluginsCarousel" role="button" data-slide="prev">
+                                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#d3pluginsCarousel" role="button" data-slide="next">
+                                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <p>Developed a set of chart plugins for Trendwise Analytics Pvt. Ltd. and nanobi analytics Pvt. Ltd. These were simple wrappers over d3.js which provided reusable charts for the developers at the respective companies. Charts included heatmaps, treemaps, multi-quadrant scatterplots,word clouds and bubble charts.</p>
+                            <ul class="list-inline item-details">
+                                <li>Developed For:
+                                    <p class="highlight">Trendwise Analytics Pvt. Ltd, nanobi analytics Pvt. Ltd</p>
+                                </li>
+                                <li>Date:
+                                    <p class="highlight">June-July 2014,November 2013</p>
+                                </li>
+                                <li>Keywords:
+                                    <p class="highlight">d3.js</p>
+                                </li>
+                            </ul>
+                            <!--<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Shop-buddy: the smart personal shopping assistant</h3>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/shopbuddy.png" width="50%" height="50%" class="img-responsive img-centered" alt="">
+                            <p>Developed with an aim to make the shopping experience at supermarkets more personalized - the application suggests products to users based on their health requirements and body types. It also tells where a particular product is in the store, compares similar products and much more. <span class="highlight">The application won the most innovative project title at SAP Osmosis 2013</span>(a joint initiative of SAP Labs India and the Govt. of Karnataka) held at SAP Labs Bangalore in Feb 2013. You can view the winning presentation <a href="https://youtu.be/KP6X96kgeJw" target="_blank">here</a>.</p>
+                            <ul class="list-inline item-details">
+                                <li>Developed For:
+                                    <p class="highlight">SAP Osmosis 2013</p>
+                                </li>
+                                <li>Date:
+                                    <p class="highlight">February 2013</p>
+                                </li>
+                                <li>Keywords:
+                                    <p class="highlight">SAP HANA, SAP UI5</p>
+                                </li>
+                            </ul>
+                            <!--<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Sports Analytics Dashboard: ICC World Cups 1975-2011</h3>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cricketdashboard.png" width="50%" height="50%" class="img-responsive img-centered" alt="">
+                            <p>This dashboard presented analysis of all data available about the Indian cricket team and their performance in the ICC World Cups over a period of 36 years. It presented information about the players performances, team records, captain records, classic encounters and much more. This dashboard also predicted the best 15 member squad for the next world cup in 2015. The dashboard was <span class="highlight">one of the top 6 winning entries nationally for the SAP Dashboard Design Challenge 2011-India.</span></p>
+                            <ul class="list-inline item-details">
+                                <li>Developed For:
+                                    <p class="highlight">SAP Dashboard Design Challenge 2011-India</p>
+                                </li>
+                                <li>Date:
+                                    <p class="highlight">July-September 2011</p>
+                                </li>
+                                <li>Keywords:
+                                    <p class="highlight">SAP Crystal Reports, MS Excel</p>
+                                </li>
+                            </ul>
+                            <!--<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Farm-isstant: The personal assistant for Farmers</h3>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/farm-isstant.png" width="50%" height="50%" class="img-responsive img-centered" alt="">
+                            <p>The project was made specially keeping the Indian farmers in mind. It created profiles for farmers and gave them suggestions for buyers, vendors and information on seeds, cultivation tips, etc. based on their profiles, locations and market trends. The system was also accessible as a mobile app and a VoIP system so that a larger number of farmers could use the system. Presented this at the Innovation Jam at SAP Techniversity 2012, Bangalore and won <span class="highlight">(1st-runner up) at SAP BizTech India 2012</span>. I was also sent to attend the SAP SAPPHIRE NOW 2013 in Oralando, Florida(USA) for this project. Winning presentation can be viewed <a href="https://youtu.be/KvTQ9LNekvA" target="_blank">here</a>.</p>
+                            <ul class="list-inline item-details">
+                                <li>Developed For:
+                                    <p class="highlight">SAP BizTech 2012</p>
+                                </li>
+                                <li>Date:
+                                    <p class="highlight">November 2012</p>
+                                </li>
+                                <li>Keywords:
+                                    <p class="highlight">ASP.NET, MS SQL</p>
+                                </li>
+                            </ul>
+                            <!--<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Tweeting a better theme park</h3>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/soc_project.png" width="50%" height="50%" class="img-responsive img-centered" alt="">
+                            <p>A prototype system which collects tweets about rides in theme parks, analyzes them and presents visualizations representing the sentiments of the tweets and key features of the text from these tweets. These visualizations help guests understand what the general opinion is for any particular ride - this can be particularly useful for first time guests and saves them the trouble of going through various ratings and reviews on park websites.</p>
+                            <ul class="list-inline item-details">
+                                <li>Developed For:
+                                    <p class="highlight">CS 8803: Social Computing</p>
+                                </li>
+                                <li>Date:
+                                    <p class="highlight">Fall 2014</p>
+                                </li>
+                                <li>Keywords:
+                                    <p class="highlight">d3.js, Python</p>
+                                </li>
+                            </ul>
+                            <!--<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Hand Cricket Mania</h3>
+                            <hr class="star-primary">
+                            <div id="hcmCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                  <li data-target="#hcmCarousel" style="fill:black" data-slide-to="0" class="active"></li>
+                                  <li data-target="#hcmCarousel" data-slide-to="1"></li>                                  
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                  <div class="item active">
+                                    <img width="50%" height="50%" src="img/portfolio/handcricket1.png" alt="" width="" height="">
+                                  </div>
+
+                                  <div class="item">
+                                    <img width="50%" height="50%" src="img/portfolio/handcricket2.png" alt="" width="" height="">
+                                  </div>
+                                  
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#hcmCarousel" role="button" data-slide="prev">
+                                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#hcmCarousel" role="button" data-slide="next">
+                                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <p>One of the classic school days pass-time game brought to the portable devices powered by Windows 8. I <span class="highlight">won the Windows 8 hackathon</span> held in Pune in 2012 for developing a prototype of this app in one night. I also received a developer device - Windows 8 powered Tablet for the same.The application is available on the Windows store and has over 2000 downloads. The application made it to the <span class="highlight">top 100 apps in the store within a week from its release</span>(release date: 8-6-2013). The application also <span class="highlight">received the Editor's Pick award</span> by BestWindows8Apps.net</p>
+                            <ul class="list-inline item-details">
+                                <li>Developed For:
+                                    <p class="highlight">Microsoft Windows 8 Hackathon</p>
+                                </li>
+                                <li>Date:
+                                    <p class="highlight">April 2012</p>
+                                </li
+>                                <li>Keywords:
+                                    <p class="highlight">C#, .xaml</p>
+                                </li>
+                            </ul>
+                            <!--<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Chato - the personal chat bot</h3>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/chato.png" width="50%" height="50%" class="img-responsive img-centered" alt="">
+                            <p>This is a chat-bot I developed during my undergraduate study. It not only gives normal responses to basic conversational questions, but also learns and stores information about individual users and replies based on the learnt information next time the user asks. For eg. if a user named Arjun tells that his favorite movie is "Rocky", "Chato" remembers it and can tell the same if asked. Also, it can answer basic knowledge questions like what is the current time etc.</p>
+                            <ul class="list-inline item-details">
+                                <li>Developed For:
+                                    <p class="highlight">Self</p>
+                                </li>
+                                <li>Date:
+                                    <p class="highlight">2012-2013</p>
+                                </li>
+                                <li>Keywords:
+                                    <p class="highlight">Python, AIML</p>
+                                </li>
+                            </ul>
+                            <!--<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>Other Mobile Applications</h3>
+                            <hr class="star-primary">
+                            <div id="mobileCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                  <li data-target="#mobileCarousel" style="fill:black" data-slide-to="0" class="active"></li>
+                                  <li data-target="#mobileCarousel" data-slide-to="1"></li>
+                                  <li data-target="#mobileCarousel" data-slide-to="2"></li>                                  
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                  <div class="item active">
+                                    <img width="50%" height="50%" src="img/portfolio/mobile1.png" alt="" width="" height="">
+                                  </div>
+
+                                  <div class="item">
+                                    <img width="50%" height="50%" src="img/portfolio/mobile2.png" alt="" width="" height="">
+                                  </div>
+
+                                  <div class="item">
+                                    <img width="50%" height="50%" src="img/portfolio/mobile3.png" alt="" width="" height="">
+                                  </div>
+                                  
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#mobileCarousel" role="button" data-slide="prev">
+                                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#mobileCarousel" role="button" data-slide="next">
+                                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <p>I have developed a few mobile applications for the Windows Phone 7 platform. These were primarily 2D games developed using XNA. The total download count for these applications was over 5000. One of the games - "Journey to the Unseen Lands" was a submission for the Microsoft Imagine Cup 2012. It was among the top 15 entries from India. The idea of the game also got an invite to the Intel Ultrabook Application Lab, Bangalore - 2012 and I got a Windows 8 powered Intel exo-pc for the same</p>
+                            <ul class="list-inline item-details">
+                                <li>Developed For:
+                                    <p class="highlight">Microsoft Imagine Cup 2012, Self</p>
+                                </li>
+                                <li>Date:
+                                    <p class="highlight">2011-2012</p>
+                                </li
+>                                <li>Keywords:
+                                    <p class="highlight">XNA, Windows Phone, Game Development, C#</p>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>                            
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="publicationsModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h4>Publications</h4>
+                            <hr class="star-primary">
+                            <ol>
+                            <p>
+                            <li>
+                            “Using an Accountability Based Framework for Data Sharing on the Cloud”- International Journal on Recent Innovation in Engineering and Technology (IJRIET), Volume 1–Issue 2 (December 2013).
+                            </li>
+                            </p>
+                            </ol>
+                            <!--<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="booksModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h4>Books Reviewed</h4>
+                            <hr class="star-primary">
+                            <ol>                            
+                            <a href="http://www.amazon.com/Learning-D3-js-Mapping-Thomas-Newton/dp/1783985607" target="_blank">
+                            <li>Learning D3.js Mapping - Thomas Newton, Oscar Villarreal. December 2014 (Packt Publishing)
+                            </li>
+                            </a>
+                            <p>
+                            <li>SAP Lumira Essentials (Packt Publishing) - in progress</li>
+                            </p>
+                            </ol>
+                            <!--<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+</body>
+
+</html>
